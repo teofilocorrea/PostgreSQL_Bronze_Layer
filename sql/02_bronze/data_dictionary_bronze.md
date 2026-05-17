@@ -24,7 +24,7 @@ Cada registro representa a una categoria de los productos.
 | Campo          | ¿Qué guarda?                        | Obligatorio | Único | Tipo elegido  | Razón del tipo                                           |
 |----------------|-------------------------------------|-------------|-------|---------------|----------------------------------------------------------|
 | id             | Identificador único de la categoría    | Sí          | Sí    | SERIAL        | Se genera automático, no necesitamos asignarlo           |
-| nombre         | Nombre de la categoría ej: Ropa, Electrónica        | Sí          | Sí    | VARCHAR(100)  | Texto corto, sabemos que no superará 100 caracteres      |
+| nombre         | Nombre de la categoría ej: Ropa, Electrónica        | Sí          | No    | VARCHAR(100)  | Texto corto, sabemos que no superará 100 caracteres      |
 | descripcion          | Detalle de qué incluye la categoría       | No          | No    | VARCHAR(2000) | Texto corto con longitud máxima conocida 2000 caracteres |
 | activo        | Si la categoría está disponible o no             | Sí          | No    | BOOLEAN       | Solo puede ser verdadero o falso        |
 | created_at     | Cuándo se creó el registro en la BD | Sí          | No    | TIMESTAMP     | Necesitamos fecha y hora exacta de carga                 |
