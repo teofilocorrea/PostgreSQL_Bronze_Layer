@@ -1,4 +1,4 @@
-![Banner](sql/02_bronze/asset/table_design_SQL_bronze.png)
+![Banner](asset/table_design_SQL_bronze.png)
 
 ## ¿Qué es esta capa?
 
