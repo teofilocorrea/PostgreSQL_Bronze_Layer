@@ -46,7 +46,7 @@ Todas las tablas Bronze tienen estas 3 columnas adicionales:
 | `record_status` | VARCHAR(20) | Estado del registro | `'active'`, `'inactive'`, `'pending'`, `'error'` |
 
 ### Documentación completa
-📄 [data_steward_bronze.md](data_steward_bronze.md)
+📄 [data_steward_bronze.md](data_dictionary_bronze.md)
 
 ---
 
