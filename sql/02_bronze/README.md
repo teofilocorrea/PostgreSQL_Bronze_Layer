@@ -76,7 +76,7 @@ FROM stg.categorias;
 ---
 
 ## 🗂️ Estructura de archivos
-
+```
 02_bronze/
 ├── create_tables/
 │   ├── 01_create_categorias.sql
@@ -95,8 +95,10 @@ FROM stg.categorias;
 │   ├── 06_insert_ordenes.sql
 │   └── 07_insert_orden_detalle.sql
 ├── README.md
+├── asset/
+├── table_design_SQL_bronze.png
 └── data_steward_bronze.md
-
+```
 ---
 
 ## 🔗 Capas relacionadas
